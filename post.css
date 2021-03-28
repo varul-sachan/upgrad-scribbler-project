@@ -1,0 +1,29 @@
+.button{
+text-align:right;
+fontsize:10px;
+padding:10px;
+}
+
+.t{
+text-align:center;
+padding:40px 60px;
+}
+
+.edit{
+text-align:right;
+font-size:18px;
+padding:15px;
+}
+
+.textarea{
+padding:5px;
+}
+
+.like{
+padding:10px;
+width:100px;
+}
+
+.comment{
+padding:10px 5px;
+}

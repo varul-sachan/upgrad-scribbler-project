@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<head>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="container">
+  <!-- Button to Open the Modal -->
+  <div class="button">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Sign In</button> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal">Sign Up</button> 
+  </div>
+
+  <br>
+  
+  <div class="button2">
+  <button type="button" class="btn btn-warning" onclick="document.location='bloglist.html'">All Posts</button> <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#Mod">Create Post</button>
+</div>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h2 class="modal-title">Welcome Back!</h2>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <table>
+          <tr>
+          <td><b>Username</b>
+          </tr>
+          <tr>
+          <td><input type="text" placeholder="Enter Username">
+          </tr>
+           <tr>
+          <td><b>Password</b>
+          </tr>
+          <tr>
+          <td><input type="text" placeholder="Enter Password">
+          </tr>
+          </table>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Sign In</button>
+        </div>
+        
+        <div class="modal-footer">
+         <b>Not a member?</b>  <h>Sign Up</h>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  
+    <!-- The Modal -->
+  <div class="modal fade" id="Modal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h2 class="modal-title">Get Started</h2>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <table>
+          <tr>
+          <td><b>Full Name</b>
+          </tr>
+          <tr>
+          <td><input type="text" placeholder="Enter Fullname">
+          </tr>
+           <tr>
+          <td><b>Username</b>
+          </tr>
+          <tr>
+          <td><input type="text" placeholder="Enter Username">
+          </tr>
+            <tr>
+          <td><b>Password</b>
+          </tr>
+          <tr>
+          <td><input type="text" placeholder="Enter Password">
+          </tr>
+            <tr>
+          <td><b>Confirm Password</b>
+          </tr>
+          <tr>
+          <td><input type="text" placeholder="Confirm Password">
+          </tr>
+          </table>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Sign Up</button>
+        </div>
+        
+    
+      </div>
+    </div>
+  </div>
+  
+  
+  
+   <!-- The Modal -->
+  <div class="modal fade" id="Mod">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h2 class="modal-title">Pen Your Post</h2>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <table>
+          <tr>
+          <td><b>Title</b>
+          </tr>
+          <tr>
+          <td><input type="text">
+          </tr>
+           <tr>
+          <td><b>Content</b>
+          </tr>
+          <tr>
+          <td><textarea rows="15" cols="105"></textarea>
+          </tr>
+          </table>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Create</button>
+        </div>
+        
+   
+        
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+</div>
+</body>
+</html>

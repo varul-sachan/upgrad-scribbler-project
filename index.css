@@ -1,0 +1,26 @@
+.button{
+text-align:right;
+font-size:40px;
+}
+h{
+color:blue;
+}
+
+input{
+font-size:30px;
+}
+.button2{
+text-align:center;
+padding:190px;
+}
+
+body{
+background-image: url("background.jpg");
+background-position:center;
+background-size:cover;
+}
+
+b{
+font-size:30px;
+}
+

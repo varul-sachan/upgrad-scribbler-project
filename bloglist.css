@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+border-radius:2px;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: orange;
+}
+
+
+/* Footer */
+.footer {
+border-radius:2px;
+  padding: 5px 100px 2px 2px;
+  text-align:left;
+  background: #ddd;
+  margin-top: 100px;
+margin-left:170px;
+margin-right:210px;
+margin-bottom:70px;
+} 
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 80%;
+    padding: 0;
+  }
+}
+
+.button{
+text-align:right;
+}
+
+
+
